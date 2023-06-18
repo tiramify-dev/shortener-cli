@@ -18,7 +18,7 @@ async function main() {
                 throw new Error("No URL provided");
 
 
-            console.log(`[${colors["green"]('shorten')}] Shortening URL: ${colors["blue"](options[0])} ${colors["blue"](options[1] != null ? `with alias "${options[1]}"` : '')}`)
+            console.log(`[${colors["green"]('shorten')}] Shortening URL: ${colors["blue"](options[0])} ${(options[1] != null ? `with alias "${colors["blue"](options[1])}"` : '')}`)
 
             const x = await fetch(`https://u.tiramify.dev/s?u=${encodeURIComponent(url)}${options[1] != null ? `&a=${encodeURIComponent(options[1])}` : ''}`, {
                 method: 'POST',
