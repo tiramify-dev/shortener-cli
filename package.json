@@ -6,8 +6,7 @@
     "dev": "bun run cli/index.ts",
     "dev:compile": "bun run compile && ./out_cli",
     "compile": "cd cli && bun build --compile index.ts && mv index ../out_cli && cd ..",
-    "setup": "bun run compile && mv out_cli /usr/local/bin/shortener",
-    "web": "bun run web/index.ts"
+    "setup": "bun run compile && mv out_cli /usr/local/bin/shortener"
   },
   "devDependencies": {
     "bun-types": "latest"
