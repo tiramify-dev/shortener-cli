@@ -7,3 +7,13 @@
 
 <div align="center">
 <h2 align="center">Source code for a cli url shortner using my own <a href="https://github.com/tiramify-dev/u.tiramify.devv">website</a></h2>
+  <br>
+  <br>
+<h2>
+To setup use this simple command: 
+</h2>
+<pre>git clone https://github.com/tiramify-dev/cli-shortner && cd cli-shortener && bun run setup</pre>
+<h4>
+P.S: this command assumes you already have <a href="https://github.com/oven-sh/bun">Bun</a> installed, if you do not you should install it.
+<h4>
+<sub>P.S.S: This cli was specifically designed for linux users</sub>
