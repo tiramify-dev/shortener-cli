@@ -6,7 +6,7 @@
 </table>
 
 <div align="center">
-<h2 align="center">Source code for a cli url shortner using my own <a href="https://github.com/tiramify-dev/u.tiramify.devv">website</a></h2>
+<h2 align="center">Source code for a cli url shortner using my own <a href="https://github.com/tiramify-dev/u.tiramify.dev">website</a></h2>
   <br>
   <br>
 <h2>
